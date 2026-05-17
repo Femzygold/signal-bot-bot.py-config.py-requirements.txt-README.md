@@ -5,12 +5,12 @@ from collections import deque
 
 app = Flask(__name__)
 
-TELEGRAM_BOT_TOKEN = "PASTE_YOUR_TOKEN_HERE"
+TELEGRAM_BOT_TOKEN = "8668028976:AAE2u1in1KGr1nRTJbaQXNPeDtMO35unoQ8"
 TELEGRAM_CHAT_ID   = "7411219487"
 DASHBOARD_PASSWORD = "signal123"
 # ── MEXC API KEYS (for auto-trading) ─────────────────────────────
-MEXC_API_KEY    = ""   # paste your MEXC API key here
-MEXC_API_SECRET = ""   # paste your MEXC secret key here
+MEXC_API_KEY    = "mx0vglgGjqnoPDiTFu"   # paste your MEXC API key here
+MEXC_API_SECRET = "e13578211318499baa3852677365d3cb"   # paste your MEXC secret key here
 
 MAX_SIGNALS = 500
 signals     = deque(maxlen=MAX_SIGNALS)
